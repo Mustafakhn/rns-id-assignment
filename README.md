@@ -42,14 +42,14 @@ After the deployment is complete, Terraform will output important information su
 
 ```terraform output```
 
-Cleaning Up
+## Cleaning Up
 To avoid incurring charges, remember to destroy the resources when you're done:
 
 ```terraform destroy```
 
 Type 'yes' when prompted to destroy the resources.
 
-Customization
+## Customization
 
 You can customize the deployment by modifying the variables in variables.tf. Key variables include:
 
@@ -57,7 +57,7 @@ You can customize the deployment by modifying the variables in variables.tf. Key
 - db_tier: The tier for the Cloud SQL instance
 - image: The Docker image for the Cloud Run service
 
-Troubleshooting
+## Troubleshooting
 If you encounter any issues during deployment, ensure that:
 
 1. You have the necessary permissions in your GCP project
